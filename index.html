@@ -12,11 +12,16 @@
 <body>
     <nav class="navbar bg-body-tertiary">   
         <div class="container-fluid p-3 mb-2 bg-primary-subtle text-primary-emphasis">
-          <a class="navbar-brand">Banco Mundial</a>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+          <h1>Cajero Automático</h1>
+          <div id="login-section">
+              <h2>Selecciona tu cuenta</h2>
+              <select id="account-select">
+                  <option value="0">luffy</option>
+                  <option value="1">zoro</option>
+                  <option value="2">nami</option>
+              </select>
+              <input type="password" id="password" placeholder="Ingresa tu password">
+              <button onclick="login()">Acceder</button>>
         </div>
       </nav>
     </nav>
@@ -27,7 +32,7 @@
             <p id="login-message"> Bienvenido</p>
             <input type="text" id="ususario" placeholder="Ingresa tu ususario">
             <input type="text" id="contraseña" placeholder="Ingresa tu contraseña">
-            <button id="btn-secion">Iniciar secion</button>
+            <button id="btn-seccion">Iniciar secion</button>
     </div>
    
         </div>
